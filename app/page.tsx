@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Roadmap from "./components/Roadmap";
+import TokenPricing from "./components/TokenPricing";
 import TokenAndPartners from "./components/TokenAndPartners";
 import WaitlistForm from "./components/WaitlistForm";
 import Footer from "./components/Footer";
@@ -16,6 +17,7 @@ export default function LandingPage() {
         <Features />
         <HowItWorks />
         <Roadmap />
+        <TokenPricing />
         <TokenAndPartners />
         <WaitlistForm />
       </main>

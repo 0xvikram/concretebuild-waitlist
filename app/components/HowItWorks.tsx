@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FileText, ExternalLink } from "lucide-react";
 
 const steps = [
   { step: "01", title: "Define Your Project", desc: "Select the commercial real estate asset and set your fundraising goals." },
@@ -36,6 +37,22 @@ export default function HowItWorks() {
             </motion.div>
           ))}
         </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ delay: 0.5 }}
+          className="mt-16 flex justify-center"
+        >
+          <a href="https://docs.google.com/document/d/15d7mlbJA01Qfv4vk1L_XajHjN1fnQRUZwH8aDBFL98g/edit?usp=sharing" target="_blank" rel="noreferrer">
+            <button className="flex items-center gap-2 px-8 py-4 rounded-full font-semibold text-lg bg-gradient-to-r from-indigo-600 to-indigo-500 hover:from-indigo-500 hover:to-indigo-400 text-white shadow-[0_0_30px_rgba(79,70,229,0.3)] hover:shadow-[0_0_40px_rgba(79,70,229,0.5)] transition-all">
+              <FileText className="w-5 h-5" />
+              Read Our Whitepaper
+              <ExternalLink className="w-4 h-4" />
+            </button>
+          </a>
+        </motion.div>
       </div>
     </section>
   );

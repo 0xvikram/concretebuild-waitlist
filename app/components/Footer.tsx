@@ -41,7 +41,6 @@ export default function Footer() {
           
           <div className="flex flex-wrap justify-center gap-6 text-sm font-medium text-zinc-500">
             <a href="mailto:support@concretebuild.org" className="hover:text-indigo-400 transition-colors">support@concretebuild.org</a>
-            <a href="https://web.telegram.org/a/#-4696364694" target="_blank" rel="noreferrer" className="hover:text-indigo-400 transition-colors">Telegram</a>
             <a href="https://x.com/CBLD2025" target="_blank" rel="noreferrer" className="hover:text-indigo-400 transition-colors">X (Twitter)</a>
           </div>
         </div>
