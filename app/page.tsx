@@ -4,7 +4,6 @@ import Features from "./components/Features";
 import HowItWorks from "./components/HowItWorks";
 import Roadmap from "./components/Roadmap";
 import TokenAndPartners from "./components/TokenAndPartners";
-import Team from "./components/Team";
 import WaitlistForm from "./components/WaitlistForm";
 import Footer from "./components/Footer";
 
@@ -18,7 +17,6 @@ export default function LandingPage() {
         <HowItWorks />
         <Roadmap />
         <TokenAndPartners />
-        <Team />
         <WaitlistForm />
       </main>
       <Footer />
