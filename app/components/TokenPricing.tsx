@@ -56,21 +56,9 @@ export default function TokenPricing() {
                   </div>
                 </div>
 
-                <div className="flex items-baseline gap-1 mb-6">
+                <div className="flex items-baseline gap-1">
                   <span className="text-3xl font-black text-white">{tier.price}</span>
                 </div>
-
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                  className={`w-full py-3 rounded-xl font-semibold transition-all ${
-                    tier.featured
-                      ? "bg-indigo-600 hover:bg-indigo-500 text-white shadow-[0_0_20px_rgba(79,70,229,0.3)]"
-                      : "bg-zinc-800/60 hover:bg-zinc-700/60 text-white border border-zinc-700"
-                  }`}
-                >
-                  Buy Now
-                </motion.button>
               </motion.div>
             );
           })}

@@ -16,6 +16,9 @@ export const metadata: Metadata = {
   title: "Concrete Build — Real Estate Tokenization Platform | Join the Waitlist",
   description: "Concrete Build is a tokenization-as-a-service platform that transforms physical real estate into digital tokens. Join our waitlist to get early access to the future of real estate investing.",
   keywords: "real estate tokenization, blockchain, RWA, fractional ownership, concrete build, CBLD, waitlist",
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "Concrete Build — Real Estate Tokenization Platform",
     description: "Digitize properties, attract global investors, and automate payouts on the blockchain. Join the waitlist today.",
