@@ -24,7 +24,7 @@ export default function Navbar() {
         </div>
 
         <div className="flex items-center gap-3">
-          <a href="https://cbld.as.me/?appointmentType=74577811" target="_blank" rel="noreferrer">
+          <a href="https://cbld.as.me/schedule/4e1f8818/appointment/77973824/calendar/8272571?appointmentTypeIds%5B%5D=77973824" target="_blank" rel="noreferrer">
             <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

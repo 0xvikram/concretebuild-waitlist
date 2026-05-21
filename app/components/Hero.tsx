@@ -88,7 +88,7 @@ export default function Hero() {
               Join the Waitlist <ArrowRight className="w-5 h-5" />
             </button>
           </a>
-          <a href="https://cbld.as.me/?appointmentType=74577811" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
+          <a href="https://cbld.as.me/schedule/4e1f8818/appointment/77973824/calendar/8272571?appointmentTypeIds%5B%5D=77973824" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
             <button className="w-full flex items-center justify-center gap-2 px-8 py-4 rounded-full font-bold text-lg bg-indigo-600/20 border border-indigo-500/50 hover:bg-indigo-600/30 text-white hover:border-indigo-400 transition-all group backdrop-blur-md">
               Book a Consultation
             </button>
